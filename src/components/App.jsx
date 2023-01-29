@@ -48,7 +48,8 @@ export const App = () => {
         setNewContactName={setNewContactName}
         newContactPhone={newContactPhone}
         setNewContactPhone={setNewContactPhone}
-        newContactId={setNewContactId}
+        newContactId={newContactId}
+        setNewContactId={setNewContactId}
       />
       <Filter filter={filter} setFilter={setFilter} />
       <ContactList
