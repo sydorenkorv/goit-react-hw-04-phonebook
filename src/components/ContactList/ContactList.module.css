@@ -3,6 +3,10 @@
   flex-direction: column;
   align-items: center;
 }
+
+.contacts__title {
+  text-align: center;
+}
 .contacts__list {
   display: flex;
   flex-wrap: wrap;
